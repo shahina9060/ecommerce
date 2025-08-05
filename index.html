@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <title>Hello, world!</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong style="color: red;">AGS Store</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- LEFT SIDE NAV ITEMS -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html"><i class="fa-solid fa-house me-2"></i>
+              Home</a>
+          </li>
+
+          <!-- Dropdowns -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Shop</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item" href="#">Delhi Shop</a></li>
+              <li><a class="dropdown-item" href="#">Bihar Shop</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">
+              Sell</a>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Blogs</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Follow Us</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Elements</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+              <li><a class="dropdown-item" href="#">Early Released</a></li>
+              <li><a class="dropdown-item" href="#">Customized Date</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">
+              Customer Services</a>
+          </li>
+
+          <!-- <form class="d-flex ms-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"> Search
+            </button>
+          </form> -->
+        </ul>
+
+        <!-- RIGHT SIDE ICON NAV ITEMS -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-3" href="./profile.html">
+              <i class="fa-solid fa-user me-1"></i> Profile
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">
+              <i class="fa-solid fa-heart me-1"></i> <span id="nav-wishlist">Wishlist</span>
+              <span id="wishlist-count" style="color: red; "></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">
+              <i class="fa-solid fa-cart-shopping me-1"></i> <span id="cart-section">Cart</span>
+              <span id="cart-count"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <!-- Banner -->
+<div class="banner">
+  <div class="banner-content">
+    
+    <!-- Text Section -->
+    <div class="banner-text">
+      <h2>Season Sale</h2>
+      <h1>MEN'S FASHION</h1>
+      <p>Min. 35–70% Off</p>
+      <div class="banner-buttons">
+        <a href="#" class="btn btn-primary">SHOP NOW</a>
+        <a href="#" class="btn btn-outline">READ MORE</a>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="banner-image">
+      <img src="./manhtml.png" alt="Men's Fashion">
+    </div>
+
+  </div>
+</div>
+
+
+
+  <!-- <iframe src="text.html" width="100%" height="100"></iframe> -->
+
+  <div class="points-wrapper">
+    <div class="point-box">
+      <div class="icon"><i class="fas fa-truck"></i></div>
+      <div class="text">
+        <h3>Fast Delivery</h3>
+        <p>Quick and safe</p>
+      </div>
+    </div>
+
+    <div class="point-box">
+      <div class="icon"><i class="fas fa-shield-alt"></i></div>
+      <div class="text">
+        <h3>Secure Payment</h3>
+        <p>Safe and easy</p>
+      </div>
+    </div>
+
+    <div class="point-box">
+      <div class="icon"><i class="fas fa-headset"></i></div>
+      <div class="text">
+        <h3>24/7 Support</h3>
+        <p>Anytime help here</p>
+      </div>
+    </div>
+
+    <div class="point-box">
+      <div class="icon"><i class="fas fa-thumbs-up"></i></div>
+      <div class="text">
+        <h3>Trusted Quality</h3>
+        <p>Reliable best choice</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="sectionContainer">
+      <!-- Left Side - Main Banner -->
+      <div class="leftBanner">
+        <img src="./womenpic.jpg" alt="Women's Style" />
+        <div class="bannerText">
+          <p class="newArrival">New Arrivals</p>
+          <h2>Women's Style</h2>
+          <p>Up to 70% Off</p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+      <!-- Right Side - Products -->
+      <div class="sndContainer">
+        <div class="trdContainer">
+          <div class="productCard">
+            <img src="./handbag1.jpg" alt="Handbag" />
+            <div class="badge blue">25% OFF</div>
+            <div class="productText">
+              <h4>Handbag</h4>
+              <a href="#">Shop Now </a>
+            </div>
+          </div>
+
+          <div class="productCard">
+            <img src="./watch1.png" alt="Watch" />
+            <div class="badge blue">45% OFF</div>
+            <div class="productText">
+              <h4>Watch</h4>
+              <a href="#">Shop Now </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="backpackCard">
+          <img src="./backpack1.webp" alt="Backpack" />
+          <div class="productText">
+            <small>Accessories</small>
+            <h4>Backpack</h4>
+            <p>Min. 40-80% Off</p>
+            <a href="#">Shop Now </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mywishlist" style="display: none;">
+    <h2>My Wishlist</h2>
+    <div class="wishlistContainer">
+      <ul class="wishlist-item" style="display: flex; flex-wrap: wrap; gap: 20px;"></ul>
+    </div>
+  </section>
+  <section class="cartlist-section" style="display:none">
+    <h2>Cart Items</h2>
+    <ul class="cart-item" style="display: flex; flex-wrap: wrap; gap:20px"></ul>
+    <div class="cart-total">
+      <h3>Total: ₹<span id="cartTotalValue">0</span></h3>
+    </div>
+  </section>
+  <div id="toast" style="
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+  z-index: 9999;
+  font-family: Arial;
+"></div>
+  <main>
+    <section class="productContainerSection">
+      <h2>Featured Products</h2>
+      <div class="productContainer">
+
+        <ul class="ul">
+          <script>
+
+            const wishlist_nav = document.getElementById("nav-wishlist")
+            const cartSection = document.getElementById("cart-section")
+            const wishlistArray = []
+
+            wishlist_nav.addEventListener('click', (e) => {
+              e.preventDefault();
+              var mywishlist = document.querySelector('.mywishlist')
+              var wishlist_item = document.querySelector('.wishlist-item')
+
+              if (wishlistArray.length === 0) {
+                alert("No items in wishlist.");
+                return;
+              }
+              document.querySelector(".productContainerSection").style.display = "none";
+              document.querySelector(".cartlist-section").style.display = "none"
+              mywishlist.style.display = "block";
+
+              let cartCount = 0
+              wishlistArray.forEach((item, index) => {
+
+                var li = document.createElement('li')
+
+                var img = document.createElement('img')
+                img.src = item.image
+                img.alt = "no product found"
+                img.style.width = '100%'
+                img.style.height = '60%'
+                img.style.objectFit = 'contain'
+                img.style.padding = ' 15px 10px'
+                img.style.borderRadius = "8px"
+
+                var p = document.createElement('p')
+                p.innerText = item.param
+                p.title = item.param
+                p.style.overflow = "hidden"
+                p.style.textOverflow = "ellipsis"
+                p.style.whiteSpace = 'nowrap';
+                p.style.margin = 0
+                p.style.padding = ' 0 5px'
+                p.style.cursor = "pointer"
+
+                var h4 = document.createElement('h4')
+                h4.innerText = item.price
+
+                var button = document.createElement('button')
+                button.style.width = '60px'
+                button.style.borderRadius = '4px'
+                button.style.backgroundColor = "lightgreen"
+                button.style.border = "none"
+                button.innerText = "View"
+
+                var cartButton = document.createElement('button')
+                cartButton.style.borderRadius = '4px'
+                cartButton.style.backgroundColor = "#FFD580"
+                cartButton.style.border = "none"
+                cartButton.innerText = "Add-cart"
+                cartButton.style.padding = '4px'
+                cartButton.style.marginTop = 0
+
+                var cartCountShow = document.getElementById("cart-count")
+                cartButton.addEventListener("click", (e) => {
+                  e.stopPropagation()
+
+                  if (!cartArray.includes(item)) {
+                    cartArray.push(item)
+                    cartCount = cartCount + 1
+                    cartCountShow.innerText = cartCount
+                    alert("added to cart")
+                  } else {
+                    const index = cartArray.indexOf(item)
+                    if (index !== -1) {
+                      cartArray.splice(index, 1)
+                      cartCount = cartCount - 1
+                      cartCountShow.innerText = cartCount
+                      alert("Do you want to remove?")
+                    }
+
+                  }
+                })
+
+
+                var div = document.createElement('div')
+                div.style.display = "flex"
+                div.style.flexDirection = "row"
+                div.style.justifyContent = "space-between"
+                div.style.padding = "10px"
+                div.style.padding = "10px"
+                div.appendChild(button)
+                div.appendChild(cartButton)
+
+                var like = document.createElement('i')
+                like.className = "fa-solid fa-heart me-1"
+                like.style.color = 'none'
+                like.style.position = 'absolute'
+                like.style.zIndex = '10px'
+                like.style.padding = "4px"
+
+                li.appendChild(like)
+                li.appendChild(img)
+                li.appendChild(p)
+
+                for (let b = 0; b < 5; b++) {
+                  var i = document.createElement('i')
+                  i.className = 'ri-star-line'
+                  i.style.color = 'yellow'
+                  i.style.paddingBottom = '10px'
+                  i.style.margin = 0
+                  li.appendChild(i)
+                }
+
+                li.appendChild(h4)
+                li.appendChild(div)
+                wishlist_item.appendChild(li)
+                li.style.width = '230px'
+                li.style.height = '350px'
+                li.style.listStyle = 'none'
+                li.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)"
+                li.style.borderRadius = "8px"
+                li.style.textAlign = "center"
+                li.style.cursor = "pointer"
+
+              })
+
+            })
+
+            cartSection.addEventListener('click', (e) => {
+              e.stopPropagation()
+              document.querySelector(".mywishlist").style.display = "none"
+              document.querySelector(".productContainerSection").style.display = "none"
+              document.querySelector(".cartlist-section").style.display = "block"
+              var cartItem = document.querySelector(".cart-item")
+
+              if (cartArray.length == 0) {
+                return alert("No items in the cart")
+              }
+              let total = 0
+              cartArray.forEach((item, index) => {
+
+                total += Number(item.price)
+                var li = document.createElement('li')
+
+                var img = document.createElement('img')
+                img.src = item.image
+                img.alt = "no product found"
+                img.style.width = '100%'
+                img.style.height = '60%'
+                img.style.objectFit = 'contain'
+                img.style.padding = ' 15px 10px'
+                img.style.borderRadius = "8px"
+
+                var p = document.createElement('p')
+                p.innerText = item.param
+                p.title = item.param
+                p.style.overflow = "hidden"
+                p.style.textOverflow = "ellipsis"
+                p.style.whiteSpace = 'nowrap';
+                p.style.margin = '10px'
+                p.style.padding = ' 0 10px'
+                p.style.cursor = "pointer"
+
+                var h4 = document.createElement('h4')
+                h4.innerText = item.price
+
+                var button = document.createElement('button')
+                button.style.width = '60px'
+                button.style.borderRadius = '4px'
+                button.style.backgroundColor = "lightgreen"
+                button.style.border = "none"
+                button.innerText = "View"
+
+                var like = document.createElement('i')
+                like.className = "fa-solid fa-heart me-1"
+                like.style.color = 'none'
+                like.style.position = 'absolute'
+                like.style.zIndex = '10px'
+                like.style.padding = "4px"
+
+                li.appendChild(like)
+                li.appendChild(img)
+                li.appendChild(p)
+
+                for (let b = 0; b < 5; b++) {
+                  var i = document.createElement('i')
+                  i.className = 'ri-star-line'
+                  i.style.color = 'yellow'
+                  i.style.paddingBottom = '10px'
+                  i.style.margin = 0
+                  li.appendChild(i)
+                }
+
+                li.appendChild(h4)
+
+                li.appendChild(button)
+                cartItem.appendChild(li)
+                li.style.width = '230px'
+                li.style.height = '350px'
+                li.style.listStyle = 'none'
+                li.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)"
+                li.style.borderRadius = "8px"
+                li.style.textAlign = "center"
+                li.style.cursor = "pointer"
+
+              })
+
+              console.log("total", total)
+              document.getElementById("cartTotalValue").innerText = total;
+
+            })
+
+            // const list = ['./manhtml.png', './watch1.png', './womenpic.jpg', './backpack1.webp', './handbag1.jpg']
+            const list = [
+              { image: './t-shirt.webp', param: 'TRIPR Men Solid Mandarin Collar Cotton Blend Dark Green, Black T-Shirt', price: '250' },
+              { image: './toy.webp', param: 'KOBBET pack of 1 Monster Truck Friction Power Cars With Big Rubber Tires 360 Degree  (Stunt Car Four-Wheel Push go Truck for Toddlers Kids Gift)', price: '500 ' },
+              { image: './car.webp', param: 'Mahi Zone Remote control Thar Rechargable RC Toys For Kids With Music_B09A  (Black)', price: '600 ' },
+              { image: './blanket.webp', param: 'ARIVETS Solid Single Mink Blanket for AC Room  (Microfiber, Grey)', price: '250' },
+              { image: './tv.webp', param: 'TOSHIBA 32E38RP 80 cm (32 inch) QLED HD Ready Smart Google TV 2025 Edition with 30W Powerful Sound, Dolby Audio, Super Bright Panel  (32E38RP)', price: '250' },
+              { image: './saari.webp', param: 'Sareemall Woven Banarasi Organza Saree  (Light Green)', price: '250' },
+              { image: './sari.webp', param: "K 5 FASHION Embroidered Bollywood Georgette Saree  (Magenta)", price: '500' },
+              { image: './cookingitem.webp', param: 'cello Midas (500+1000+1500) Pack of 3 Thermoware Casserole Set  (500 ml, 1000 ml, 1500 ml)', price: '600' },
+              { image: './physics.webp', param: 'PW SKC Physics Crush Class 12 Handwritten Format Notes By Saleem Sir For JEE and NEET Exams | A Beautiful Journey From Basic to JEE Advanced via JEE/ NEET  (Paperback, Saleem Ahmed)', price: '250' },
+              { image: './games.webp', param: 'SSR Wireless Console Retro Video Game for TV- 4K Ultra HD | Video Game Console 64 GB with 21000+ Games  (Black)', price: '250' },
+            ]
+
+            var ul = document.querySelector('.ul')
+            // ul.style.display = 'flex'
+            // ul.style.flexWrap = "wrap"
+            // ul.style.gap = '40px'
+
+            const wishitlist = document.getElementById('wishlist-count')
+            function showToast(message, bgColor = "#333") {
+              const toast = document.getElementById("toast");
+              toast.innerText = message;
+              toast.style.backgroundColor = bgColor;
+              toast.style.display = "block";
+
+              setTimeout(() => {
+                toast.style.display = "none";
+              }, 2000); // hides after 2 seconds
+            }
+            let count = 0
+            let cartCount = 0
+            const cartArray = []
+
+            list.forEach((item, index) => {
+              var like = document.createElement('i')
+              var li = document.createElement('li')
+
+              like.addEventListener("click", (e) => {
+                e.stopPropagation();
+
+                if (!wishlistArray.includes(item)) {
+                  wishlistArray.push(item);
+                  count = count + 1;
+                  wishitlist.innerText = count;
+                  like.style.color = "red";
+                  showToast("Added to wishlist", "green");
+                } else {
+                  const index = wishlistArray.indexOf(item);
+                  if (index !== -1) {
+                    wishlistArray.splice(index, 1); // remove item
+                    count = count - 1;
+                    wishitlist.innerText = count;
+                    like.style.color = "black";
+                    showToast("Removed from wishlist", "red");
+                  }
+                }
+
+                console.log(wishlistArray);
+              });
+
+              var img = document.createElement('img')
+              img.src = item.image
+              img.alt = "no product found"
+              img.style.width = '100%'
+              img.style.height = '60%'
+              img.style.objectFit = 'contain'
+              img.style.padding = ' 15px 10px'
+              img.style.borderRadius = "8px"
+
+              var p = document.createElement('p')
+              p.innerText = item.param
+              p.title = item.param
+              p.style.overflow = "hidden"
+              p.style.textOverflow = "ellipsis"
+              p.style.whiteSpace = 'nowrap';
+              p.style.margin = 0
+              p.style.padding = ' 0 5px'
+              p.style.cursor = "pointer"
+
+              var h4 = document.createElement('h4')
+              h4.innerText = `$ ${item.price}`
+
+              var button = document.createElement('button')
+              button.style.borderRadius = '4px'
+              button.style.backgroundColor = "lightgreen"
+              button.style.border = "none"
+              button.innerText = "View"
+
+              var cartButton = document.createElement('button')
+              cartButton.style.borderRadius = '4px'
+              cartButton.style.backgroundColor = "#FFD580"
+              cartButton.style.border = "none"
+              cartButton.innerText = "Add-cart"
+              cartButton.style.padding = '4px'
+              cartButton.style.marginTop = 0
+
+              var cartCountShow = document.getElementById("cart-count")
+              cartButton.addEventListener("click", (e) => {
+                e.stopPropagation()
+
+                if (!cartArray.includes(item)) {
+                  cartArray.push(item)
+                  cartCount = cartCount + 1
+                  cartCountShow.innerText = cartCount
+                  alert("added to cart")
+                } else {
+                  const index = cartArray.indexOf(item)
+                  if (index !== -1) {
+                    cartArray.splice(index, 1)
+                    cartCount = cartCount - 1
+                    cartCountShow.innerText = cartCount
+                    alert("Do you want to remove?")
+                  }
+
+                }
+              })
+
+              var div = document.createElement('div')
+              div.style.display = "flex"
+              div.style.flexDirection = "row"
+              div.style.justifyContent = "space-between"
+              div.style.padding = "10px"
+              div.style.padding = "10px"
+              div.appendChild(button)
+              div.appendChild(cartButton)
+
+              like.className = "fa-solid fa-heart me-1"
+              like.style.color = 'none'
+              like.style.position = 'absolute'
+              like.style.zIndex = '10px'
+              like.style.padding = "4px"
+
+              li.appendChild(like)
+              li.appendChild(img)
+              li.appendChild(p)
+
+              for (let b = 0; b < 5; b++) {
+                var i = document.createElement('i')
+                i.className = 'ri-star-line'
+                i.style.color = 'yellow'
+                i.style.paddingBottom = '10px'
+                i.style.margin = 0
+                li.appendChild(i)
+              }
+
+              li.appendChild(h4)
+              li.appendChild(div)
+              ul.appendChild(li)
+
+              li.style.width = '230px'
+              li.style.height = '350px'
+              li.style.listStyle = 'none'
+              li.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)"
+              li.style.borderRadius = "8px"
+              li.style.textAlign = "center"
+              li.style.cursor = "pointer"
+
+            })
+          </script>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer text-white py-4">
+    <div class="container">
+      <div class="row">
+
+        <!-- Brand Info -->
+        <div class="col-md-4 mb-4 text-center text-md-start">
+          <h5 class="mt-2">MyShop</h5>
+          <p class="text-light">Your go-to destination for stylish and affordable products.</p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="col-md-4 mb-4 text-center text-md-start">
+          <h5 class="mt-2">Quick Links</h5>
+          <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-start gap-3">
+            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-white text-decoration-none">About</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Products</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-4 mb-4 text-center text-md-start">
+          <h5 class="mt-2">Follow Us</h5>
+          <div class="d-flex justify-content-center justify-content-md-start gap-3">
+            <a href="#" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="border-light">
+
+      <div class="text-center">
+        <p class="mb-0">&copy; 2025 MyShop. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
