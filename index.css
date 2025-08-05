@@ -321,7 +321,7 @@ main {
 }
 .badge {
   position: absolute;
-  top: 40px;
+  top: 20px;
   left: 40px;
   background-color: blue;
   color: white;
@@ -354,14 +354,14 @@ li{
   right: 0;
   border-radius: 8px;
   max-width: 50%;
-  background-color: red;
+  /* background-color: red; */
 }
 .bannerText h2,p {
   margin: 0;
   padding: 0;
 }
 .bannerText button {
-  padding: 4px 10px;
+  padding: 2px 10px;
   background-color: black;
   color: white;
   border: none;
