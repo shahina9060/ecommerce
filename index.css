@@ -243,13 +243,13 @@ main {
   margin: 0;
   list-style: none;
 }
-@media (max-width:430){
+@media (max-width: 576px){
   .ul{
     padding: 0;
     margin: 0;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 576px) {
   body {
   display: flex;
   flex-direction: column;
@@ -430,7 +430,7 @@ li{
 }
 
 /* Responsive for larger screens */
-@media (max-width: 430px) {
+@media (max-width: 576px) {
   .banner-content {
     display: flex;
     flex-direction: row;
@@ -463,3 +463,4 @@ li{
 }
 
 }
+
